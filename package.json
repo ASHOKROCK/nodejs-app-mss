@@ -1,12 +1,13 @@
 {
   "name": "nodejsexamples",
-  "version": "1.0.0",
+  "version": "1.0",
   "description": "This Project explains all Node JS examples",
   "main": "app.js",
+   "npm login --registry":"http://35.240.144.33:8081/repository/npm-repo"
   "publishConfig": {
     "registry": "http://35.240.144.33:8081/repository/npm-repo/"
   },
-  "npm login --registry":"http://35.240.144.33:8081/repository/npm-repo"
+ 
   
   "scripts": {
     "server": "http-server -c-1 -p 9999",
